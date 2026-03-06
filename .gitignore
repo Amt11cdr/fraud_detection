@@ -1,22 +1,10 @@
-# Python cache
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# Virtual environment
-venv/
-.env/
-
-# VS Code settings
-.vscode/
-
 # Data outputs
-data/bronze/
-data/silver/
-data/gold/
-data/audit/
+data/bronze/*
+data/silver/*
+data/gold/*
+data/audit/*
 
-# OS files
-.DS_Store
-Thumbs.db
+!data/bronze/.gitkeep
+!data/silver/.gitkeep
+!data/gold/.gitkeep
+!data/audit/.gitkeep
