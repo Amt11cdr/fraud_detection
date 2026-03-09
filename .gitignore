@@ -1,3 +1,5 @@
+__pycache__/
+*.pyc
 # Data outputs
 data/bronze/*
 data/silver/*
@@ -8,3 +10,5 @@ data/audit/*
 !data/silver/.gitkeep
 !data/gold/.gitkeep
 !data/audit/.gitkeep
+
+
